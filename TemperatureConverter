@@ -1,0 +1,21 @@
+// CHECK: https://www.youtube.com/watch?v=nhrPfwoxOWE
+
+package exercises;
+import java.util.Scanner;
+
+public class TemperatureConverter {
+
+    public static void main(String[] args){
+
+        // (F - 32) * 5/9 = C
+
+        Scanner appScanner = new Scanner(System.in);
+
+        System.out.println("Enter a temperature in fahrenheit: ");
+        double fahrenheit = appScanner.nextFloat();
+        double celsius = (fahrenheit - 32) * (5.0/9.0);
+
+        System.out.printf("%.1f fahrenheit is equal to %.1f celsius degree.", fahrenheit, celsius);
+
+    }
+}
