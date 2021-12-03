@@ -14,3 +14,5 @@ If it makes sense to you, please, follow my work:
 <h3>Sumary:</h3>
 
 - TemperatureConverter: Printf(); Scanner;
+- December/2021 - StoreUserInputArray: for loop(for, forEach, IntStream); Scanner; array[]
+- November/2021 - TemperatureConverter: printf(); Scanner
