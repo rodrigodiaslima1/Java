@@ -1,0 +1,35 @@
+import java.util.Scanner;
+import java.util.stream.IntStream;
+
+public class StoreNumbersFromUserInput {
+
+    public static void main(String[] args){
+
+        // SCANNER
+        Scanner userScan = new Scanner(System.in);
+
+        // ARRAY numbers
+        int[] numbers = new int[3];
+
+        // ORIGINAL VALUES INSIDE ARRAY
+        IntStream.range(0, numbers.length).forEach(i ->{
+            System.out.println(numbers[i]);
+        });
+
+        System.out.println();
+
+        // ITERATING THROUGH THE ARRAY
+        for(int i=0; i < numbers.length; i++){
+            System.out.print("Number: ");
+            int userInput = userScan.nextInt();
+            numbers[i] = userInput;
+        }
+
+        System.out.println();
+        
+        IntStream.range(0, numbers.length).forEach(i ->{
+            System.out.println(numbers[i]);
+        });
+
+    }
+}
