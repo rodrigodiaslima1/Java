@@ -1,0 +1,54 @@
+/*
+  Check out my youtube channel at:
+  https://youtu.be/8krwvndkfgc
+*/
+
+package exercises.others;
+
+public class multidimensional_array_exercise {
+
+    /*
+     * CREATE A MULTIDIMENSIONAL ARRAY OF int
+     * MAKE IT 3 X 3
+     *
+     * LOOP THROUGH IT AND OUTPUT ALL THE VALUES ON THE DIAGONAL
+     * FROM TOP LEFT TO BOTTOM RIGHT
+     *
+     * ADD UP THESE VALUES AND PRINT THE TOTAL
+     * */
+
+    public static void main(String[] args) {
+
+        int total = 0;
+
+        // CREATE A MULTIDIMENSIONAL ARRAY OF int
+        // MAKE IT 3 X 3
+        int[][] multiArray = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9},
+        };
+
+        // LOOP THROUGH IT AND OUTPUT ALL THE VALUES ON THE DIAGONAL
+        // FROM TOP LEFT TO BOTTOM RIGHT
+
+        int subArrayIndex = 0;
+        for(int arrayIndex = 0; arrayIndex < multiArray.length; arrayIndex++){
+            for(; arrayIndex < multiArray.length ;){
+                System.out.println(multiArray[arrayIndex][subArrayIndex]);
+                total += multiArray[arrayIndex][subArrayIndex];
+                subArrayIndex++;
+                break;
+            }
+        }
+
+        int subArrayIndex2 = 0;
+        for(int arrayIndex2 = 0; arrayIndex2 < multiArray.length; arrayIndex2++){
+            System.out.println(multiArray[arrayIndex2][subArrayIndex2]);
+            subArrayIndex2++;
+        }
+
+        System.out.printf("Total is equal to %d", total);
+
+    }
+}
