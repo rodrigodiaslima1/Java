@@ -13,5 +13,7 @@ If it makes sense to you, please, follow my work:
 
 <h3>Sumary:</h3>
 
+- December/2021 - MultidimensionalArray: array[]; for loop
 - December/2021 - StoreUserInputArray: for loop(for, forEach, IntStream); Scanner; array[]
 - November/2021 - TemperatureConverter: printf(); Scanner
+- 
