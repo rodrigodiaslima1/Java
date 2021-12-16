@@ -1,3 +1,4 @@
+<img src="https://softmany.com/wp-content/uploads/2017/08/Java-Runtime-Environment-for-Windows.png" width="100">
 <h1>Tvc Computers - Java Repository</h1>
 
 <em>"This repository is dedicated to all Java code I've been written till now. However, if you are trying to find frameworks from Java (as well as other technologies related to it), here is not the right place to choose. Here, I'm going to post pure Java. Therefore, this is an exclusively repository for you to find out, mainly, Java exercises, tests and so on, thou we can acquire a better knowledge about this language."</em>
