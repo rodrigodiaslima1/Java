@@ -1,6 +1,6 @@
 <br>
 <img src="https://softmany.com/wp-content/uploads/2017/08/Java-Runtime-Environment-for-Windows.png" width="100">
-<h1>Tvc Computers - Java Repository</h1>
+<h1>Java Repository</h1>
 
 
 
