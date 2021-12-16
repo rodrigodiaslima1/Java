@@ -24,5 +24,6 @@ If it makes sense to you, please, follow my work:
 - <a href="https://www.youtube.com/channel/UC99hYHea_wH84-PEMxl9GpQ" ><em>Youtube</em></a>
 - <a href="https://www.instagram.com/tvc_computers/" ><em>Instagram</em></a>
 
-<h4>"Type Voracious Code!"</h4>
-<p>Rodrigo Dias Lima</p>
+<h4><em>Type Voracious Code!</em></h4>
+<h4>Rodrigo Dias Lima</h4>
+
